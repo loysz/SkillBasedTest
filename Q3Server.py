@@ -49,7 +49,7 @@ threadcount = 0
 while True:
     # Accept connection
     client_socket, client_address = server_socket.accept()
-    print(f"[*] Accept connection from {hostname}:{ip_address}")
+    print(f"[*] Accept connection from {client_address[0]}:{client_address[1]}")
 
     # Create new thread to handle client's request
     client_thread = threading.Thread(target=handle_client, args=(client_socket,))
