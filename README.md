@@ -1,4 +1,4 @@
-# Skill Based Test ITT440 NETWORK PROGRAMMING
+# Skill Based Test ITT440 (Network Programming)
 
 Just follow the lecturer instructions to create this repositories.
 
