@@ -43,10 +43,6 @@ print(f"[*] Socket bind to port:{port}")
 server_socket.listen(5)
 print("[*] Waiting for incoming connection...")
 
-# Trying gethostbyname function (Not neccessary)
-hostname = socket.gethostname()
-ip_address = socket.gethostbyname(hostname)
-
 # Define threadcount
 threadcount = 0
 
